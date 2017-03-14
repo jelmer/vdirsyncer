@@ -26,7 +26,15 @@
         "python": "3.3"
       },
       {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=devel ",
+        "python": "3.3"
+      },
+      {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=release ",
+        "python": "3.3"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=release ",
         "python": "3.3"
       },
       {
@@ -34,7 +42,15 @@
         "python": "3.3"
       },
       {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=minimal ",
+        "python": "3.3"
+      },
+      {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=devel ",
+        "python": "3.4"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=devel ",
         "python": "3.4"
       },
       {
@@ -42,7 +58,15 @@
         "python": "3.4"
       },
       {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=release ",
+        "python": "3.4"
+      },
+      {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=minimal ",
+        "python": "3.4"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=minimal ",
         "python": "3.4"
       },
       {
@@ -50,7 +74,15 @@
         "python": "3.5"
       },
       {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=devel ",
+        "python": "3.5"
+      },
+      {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=release ",
+        "python": "3.5"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=release ",
         "python": "3.5"
       },
       {
@@ -58,7 +90,15 @@
         "python": "3.5"
       },
       {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=minimal ",
+        "python": "3.5"
+      },
+      {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=devel ",
+        "python": "3.6"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=devel ",
         "python": "3.6"
       },
       {
@@ -67,6 +107,10 @@
       },
       {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=release ",
+        "python": "3.6"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=release ",
         "python": "3.6"
       },
       {
@@ -98,7 +142,15 @@
         "python": "3.6"
       },
       {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=minimal ",
+        "python": "3.6"
+      },
+      {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=devel ",
+        "python": "pypy3"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=devel ",
         "python": "pypy3"
       },
       {
@@ -106,7 +158,15 @@
         "python": "pypy3"
       },
       {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=release ",
+        "python": "pypy3"
+      },
+      {
         "env": "BUILD=test DAV_SERVER=radicale REQUIREMENTS=minimal ",
+        "python": "pypy3"
+      },
+      {
+        "env": "BUILD=test DAV_SERVER=xandikos REQUIREMENTS=minimal ",
         "python": "pypy3"
       },
       {

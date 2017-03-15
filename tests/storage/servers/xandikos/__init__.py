@@ -11,7 +11,8 @@ class ServerMixin(object):
     def get_storage_args(self, request, tmpdir, slow_create_collection):
         backend = XandikosBackend(path=str(tmpdir.mkdir('xandikos')))
         cup = '/user/'
-        backend._mark_as_principal(cup)
+        backend.create_principal(cup, create_defaults=True)
+
         app = XandikosApp(backend, cup)
 
         wsgi_intercept.requests_intercept.install()
